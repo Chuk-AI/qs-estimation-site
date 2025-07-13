@@ -10,7 +10,7 @@ import {
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-
+import whatsappIcon from "@/assets/whatsapp.png";
 /* ────────  images  ────────────────────────────────────────── */
 import heroImg from "@/assets/hero-banner.jpg";
 import servicesImg from "@/assets/services-overview.jpg";
@@ -614,7 +614,7 @@ const WhatsappButton = () => {
                  bg-green-500 hover:bg-green-600 shadow-lg"
       aria-label="Chat on WhatsApp"
     >
-      <img src="/src/assets/whatsapp.png" alt="" className="w-7 h-7" />
+      <img src={whatsappIcon} alt="" className="w-7 h-7" />
     </a>
   );
 };
