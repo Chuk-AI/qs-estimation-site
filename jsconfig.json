@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    // let VS Code & the shadcn CLI know where "@" points
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
